@@ -15,7 +15,7 @@ Inside the firmware zip file will be 4 files
 - A file with `-zmk-artsey.hex` at the end that is the hex firmware image that can be used to flash your MCU
 - A file with `-zmk-artsey.uf2` at the end that is the uf2 firmware image that can be used to flash your MCU
 
-Please Note: the `hex` and `uf2` files may or may not be present depending on your MCU + board combo. **PLEASE** use the proper file for flashing your board. 
+Please Note: the `hex` and `uf2` files may or may not be present depending on your MCU + board combo. **PLEASE** use the proper file for flashing your board.
 
 **We are NOT responsible for any failed firmware flashes!**
 
@@ -25,10 +25,12 @@ If you'd like to add ARTSEY support to a board that supports ZMK but is not buil
 
 Also, update the `.github/workflows/build.yml` file for the new board being submitted.
 
-Note: This repo is setup with github actions so you *can* work directly via GitHub Actions similar to how the ZMK documentation outlines.
+Note: This repo is setup with github actions so you _can_ work directly via GitHub Actions similar to how the ZMK documentation outlines.
 
 ## Licensing
 
 Unless otherwise stated all source code is licensed under the [Apache 2 License](LICENSE-APACHE-2.0.txt).
 
 Unless otherwise stated the non source code contents of this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE-CC-Attribution-NonCommercial-ShareAlike-4.0-International.txt)
+
+for tahutech repo
